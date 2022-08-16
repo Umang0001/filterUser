@@ -1,0 +1,55 @@
+table{
+    text-align: center;
+    /* display: none; */
+}
+
+td,th{
+    padding: 10px 20px;
+
+}
+input{
+    text-align: center  ;
+    display: block;
+    /* margin: 20px; */
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 40px;
+}
+
+
+.th{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+td button{
+    border: 1px dotted blueviolet;
+    padding: 10px 15px;
+    margin: 0px 2px;
+    border-radius: 10px;
+}
+#editTr input{
+    border: 1px solid green;
+}
+
+
+
+.success{
+    border: 1px solid green;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 20PX auto;
+    padding: 20px;
+    color: green;
+    text-align: center;
+    
+}
+
+table td,th{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    /* display: flex; */
+}
