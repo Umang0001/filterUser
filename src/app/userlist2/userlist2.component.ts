@@ -14,5 +14,11 @@ export class Userlist2Component implements OnInit {
   ngOnInit(): void {
   }
 
+  handleLogin(data:any){
+    console.log(data);
+    alert("Login Successful")
+    
+  }
+
 
 }

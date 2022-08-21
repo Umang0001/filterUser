@@ -1,1 +1,7 @@
-hello world
+
+<form #loginForm="ngForm" (ngSubmit)=handleLogin(loginForm.value)>
+    <input type="text" ngModel name="username" placeholder="Enter Name"><br> <br>
+    <input type="password" ngModel name="password" placeholder="Enter Password" ><br><br>
+    <button>Login</button>
+    
+</form>
