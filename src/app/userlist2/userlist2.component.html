@@ -1,7 +1,14 @@
 
-<form #loginForm="ngForm" (ngSubmit)=handleLogin(loginForm.value)>
+<!-- <form #loginForm="ngForm" (ngSubmit)=handleLogin(loginForm.value)>
     <input type="text" ngModel name="username" placeholder="Enter Name"><br> <br>
     <input type="password" ngModel name="password" placeholder="Enter Password" ><br><br>
     <button>Login</button>
-    
+</form> -->
+
+
+<form [formGroup]="myForm" (ngSubmit)="handleSubmit()">
+    <input type="text" placeholder="Enter Name" formControlName="username"><br><br>
+    <input type="password" placeholder="Enter Password" formControlName="password"><br><br>
+    <button>Submit</button>
 </form>
+

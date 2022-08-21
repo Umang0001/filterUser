@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { UserlistComponent } from './userlist/userlist.component';
 import { Userlist2Component } from './userlist2/userlist2.component';
 import {FormsModule} from "@angular/forms"
+import {ReactiveFormsModule} from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {FormsModule} from "@angular/forms"
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
